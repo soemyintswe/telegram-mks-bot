@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "7959867461:AAFafHWYnrCSno3de3feG-74mAaYs-yNIdg"
+TOKEN = os.environ.get("TOKEN")
 
 # Main Menu
 main_menu_keyboard = [

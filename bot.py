@@ -11,7 +11,7 @@ main_menu_keyboard = [
     ["ဘွဲ့လက်မှတ် နှင့် အမှတ်စာရင်း"],
     ["နိုတြီဘာသာပြန် & တရားရုံးကျမ်းကျိန်လွှာ"],
     ["တက္ကသိုလ်ဝင်စာမေးပွဲ G12 ဖြေဆိုခွင့်လျှောက်ထား"],
-    ["ကျောင်းစာအုပ်ဝယ်ယူ/ပို့ဆောင်"]
+    ["ကျောင်းသုံးစာအုပ်ဝယ်ယူ/ပို့ဆောင်"]
 ]
 
 # G12 Submenus
@@ -48,7 +48,7 @@ uni_menu = ReplyKeyboardMarkup(submenu_uni, resize_keyboard=True)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🙏 မင်္ဂလာပါ၊ MKS Bot မှ ကြိုဆိုပါတယ်။\nမိမိလိုချင်သော Menu ကို ရွေးပါ။",
+        "🙏 မင်္ဂလာပါ၊ MKS ပညာရေးဝန်ဆောင်မှုလုပ်ငန်း မှ ကြိုဆိုပါတယ်။\nမိမိလိုချင်သော Menu ကို ရွေးပါ။",
         reply_markup=main_menu
     )
 

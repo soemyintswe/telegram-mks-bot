@@ -69,7 +69,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("🤗 နိုတြီဘာသာပြန် & တရားရုံးကျမ်းကျိန်လွှာ နှင့် စပ်လျဉ်း၍ အသေးစိတ်သိရှိလိုပါက ဆက်သွယ်ရန်: 09890303270 (Phone/Viber/Telegram)", reply_markup=main_menu)
     elif text == "တက္ကသိုလ်ဝင်စာမေးပွဲ G12 ဖြေဆိုခွင့်လျှောက်ထား":
         await update.message.reply_text("🤗 တက္ကသိုလ်ဝင်စာမေးပွဲ G12 ဖြေဆိုခွင့်လျှောက်ထားမှုနှင့် စပ်လျဉ်း၍ အသေးစိတ်သိရှိလိုပါက ဆက်သွယ်ရန်: 09890303270 (Phone/Viber/Telegram)", reply_markup=main_menu)
-    elif text == "ကျောင်းစာအုပ်ဝယ်ယူ/ပို့ဆောင်":
+    elif text == "ကျောင်းသုံးစာအုပ်ဝယ်ယူ/ပို့ဆောင်":
         await update.message.reply_text("🤗 ကျောင်းသုံးစာအုပ်ဝယ်ယူ/အရောက်ပို့ဆောင်ပေးခြင်းနှင့် စပ်လျဉ်း၍ အသေးစိတ်သိရှိလိုပါက ဆက်သွယ်ရန်: 09890303270 (Phone/Viber/Telegram)", reply_markup=main_menu)
 
     # G12 Certificate Menu

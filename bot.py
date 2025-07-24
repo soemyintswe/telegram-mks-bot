@@ -76,7 +76,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     elif text == "G12 အောင်လက်မှတ်":
         await update.message.reply_text("🔰 ဆယ်တန်း G12 အောင်လက်မှတ် မေးခွန်းများ:", reply_markup=g12_cert_menu)
     elif text == "အောင်လက်မှတ်ထုတ်ချင်လို့ပါ":
-        await update.message.reply_text("🤗 အရင်ကအောင်လက်မှတ်မူရင်းထုတ်ဘူးလား။ တစ်ခါမှ မထုတ်ရသေးဘူးဆိုရင် မူရင်းထုတ်လို့ရပါတယ်။ မူရင်းထုတ်ပြီးတာ (၆) ကျော်ရင် မိတ္တူ ပြန်လျှောက်လို့ရပါမယ်။", reply_markup=g12_cert_menu)
+        await update.message.reply_text("🤗 အရင်ကအောင်လက်မှတ်မူရင်းထုတ်ဘူးလား။ တစ်ခါမှ မထုတ်ရသေးဘူးဆိုရင် မူရင်းထုတ်လို့ရပါတယ်။ မူရင်းထုတ်ပြီးတာ (၆)လကျော်ရင် မိတ္တူ ပြန်လျှောက်လို့ရပါမယ်။", reply_markup=g12_cert_menu)
     elif text == "အောင်လက်မှတ် ဘယ်လောက်ကျမလဲ":
         await update.message.reply_text("🤗 အောင်လက်မှတ်မူရင်း ၁၅,၀၀၀/- (ပို့ခမပါ) ယူပါတယ်။ မူရင်းထုတ်ပြီးသားဖြစ်လို့ မိတ္တူပြန်လျှောက်ပေးရရင် ၂၀,၀၀၀/- (ပို့ခမပါ) ယူပါတယ်။", reply_markup=g12_cert_menu)
     elif text == "အောင်လက်မှတ် ဘာတွေလိုအပ်မလဲ":
